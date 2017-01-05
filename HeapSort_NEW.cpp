@@ -31,6 +31,7 @@ int main()
 	return 0;
 }
 
+// Time Complexity : O(n logn). Space Complexity : O(1) as NO EXTRA SPACE is required...
 void heapSort(int *arr, int n)
 {
 	makeHeap(arr, n);
