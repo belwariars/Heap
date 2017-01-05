@@ -48,6 +48,7 @@ void deleteHeap(int arr[], int *n)
 int main()
 {
 	int arr[20] = {1000, 7, 10, 25, 17, 23, 27, 16, 19, 37, 42, 4, 33, 1, 5, 11 };
+	// ALWAYS REMEMBER!!!  arr[x] here, x(20 here) > n(16 here)..so always make x > n while writing code
 	// Array of 20 size as if we want to add more items...
 //	int n = sizeof(arr)/sizeof(arr[0]);
 	int n = 16;
